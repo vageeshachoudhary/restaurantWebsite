@@ -49,7 +49,7 @@ nav .list ul li {
 	padding: 40px 0 0 40px;
 }
 
-nav .list ul li:nth-child(4) {
+nav .list ul li:nth-child(5) {
 	padding-right: 80px;
 }
 
@@ -147,5 +147,88 @@ nav .list ul li a:hover {
 .box1:hover>h2,
 .box2:hover>h2,
 .box3:hover>h2 {
+	color: #ff512f;
+}
+.footer {
+	padding-top: 4%;
+}
+
+.footer .upper-part img {
+	width: 250px;
+}
+
+.footer .upper-part p {
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 15px;
+	letter-spacing: 0.8px;
+	font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
+.footer .upper-part p.change-color {
+	color: #ff512f;
+}
+
+.footer .middle-part {
+	padding: 10px 0;
+}
+
+.footer .middle-part a i {
+	font-size: 17px;
+	border: 1px solid #999;
+	padding: 7px;
+	border-radius: 50%;
+	margin-left: 15px;
+	color: black;
+	transition: 0.3s;
+}
+
+.footer .middle-part .fa-facebook-f {
+	padding: 7px 12px;
+}
+
+.footer .middle-part .fa-instagram {
+	padding: 7px 9px;
+}
+
+.footer .middle-part a i:hover {
+	color: #ff512f;
+	border-color: #ff512f;
+}
+
+.footer .hr10 {
+	width: 100%;
+	height: 0.4px;
+	background-color: #999;
+}
+
+.footer .copyright p {
+	font-size: 16px;
+	padding: 10px 15px;
+}
+
+.footer .bottom-list ul {
+	list-style: none;
+	padding: 10px 15px;
+	float: right;
+}
+
+.footer .bottom-list ul li {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+.footer .bottom-list ul li:nth-child(5) {
+	padding-right: 50px;
+}
+
+.footer .bottom-list ul li a {
+	color: #999;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.footer .bottom-list ul li a:hover {
 	color: #ff512f;
 }

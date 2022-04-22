@@ -49,7 +49,7 @@ nav .list ul li {
 	transition: 0.5s;
 }
 
-nav .list ul li:nth-child(4) {
+nav .list ul li:nth-child(5) {
 	padding-right: 90px;
 }
 
@@ -432,69 +432,10 @@ nav.black .list ul li {
 	padding-top: 20px;
 }
 
-.reservation {
-	padding: 60px 10px;
-}
-
-.booking {
-	padding: 50px 30px;
-}
-
-.booking h3 {
-	font-size: 26px;
-	font-family: 'Beyond', sans-serif;
-	color: #ff512f;
-}
-
-.booking h2 {
-	font-size: 30px;
-	font-weight: 600;
-	padding-top: 10px;
-	font-family: 'ZCOOL XiaoWei', sans-serif;
-	text-transform: uppercase;
-}
-
-.booking .hr9 {
-	width: 10%;
-	height: 1px;
-	background-color: #403b4a;
-}
-
-.booking input {
-	width: 100%;
-	padding: 8px 10px;
-	margin-bottom: 10px;
-	border: 1px solid #777;
-	outline: none;
-}
-
-.booking input:nth-child(1) {
-	margin-top: 20px;
-}
-
-.booking input::placeholder {
-	font-size: 16px;
-	font-family: 'Montserrat-UltraLight', sans-serif;
-}
-
-.booking button {
-	width: 100%;
-	background-color: #403b4a !important;
-	border-color: #403b4a !important;
-	padding: 10px 0;
-	border-radius: 0;
-	transition: 0.5s;
-}
-
-.booking button:hover {
-	cursor: pointer;
-	background-color: #ff512f !important;
-	border-color: #ff512f !important;
-}
-
 .footer {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background.jpg);
 	color: #999;
+	margin-top: 0.5%;
 }
 
 .footer .upper-part img {
